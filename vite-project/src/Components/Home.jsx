@@ -48,7 +48,7 @@ export const Home = () => {
         <span style={{ display: "inline-block" }}>
           <img
             className="mb-2 p-0 ms-0"
-            src="/spoon.png"
+            src="/spoon.jfif"
             alt=""
             style={{
               width: "80px",
@@ -62,7 +62,7 @@ export const Home = () => {
         <span style={{ display: "inline-block" }}>
           <img
             className="mb-2 p-0 ms-0"
-            src="/spoon.png"
+            src="/spoon.jfif"
             alt=""
             style={{
               width: "80px",

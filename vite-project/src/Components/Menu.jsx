@@ -6,7 +6,7 @@ export const Menu = () => {
   // Array of menu items
   const menuItems = [
     {
-      image: "/now4.webp",
+      image: "/now1.jpeg",
       name: "Burger",
       description: "Juicy beef patty with fresh lettuce and cheese.",
       price: "$12.99"
@@ -24,7 +24,7 @@ export const Menu = () => {
       price: "$13.99"
     },
     {
-      image: "/now1.jpeg",
+      image: "/now4.jpeg",
       name: "Salad",
       description: "Fresh greens with a light vinaigrette dressing.",
       price: "$8.99"
@@ -48,7 +48,7 @@ export const Menu = () => {
       price: "$14.99"
     },
     {
-      image: "/now7.webp",
+      image: "/now7.jpeg",
       name: "Pasta",
       description: "Creamy Alfredo sauce with grilled chicken.",
       price: "$13.99"
@@ -66,7 +66,7 @@ export const Menu = () => {
       price: "$12.99"
     },
     {
-      image: "/now10.jpeg",
+      image: "/now10.webp",
       name: "Pizza",
       description: "Topped with mozzarella, tomato, and fresh basil.",
       price: "$14.99"
@@ -84,7 +84,7 @@ export const Menu = () => {
       price: "$8.99"
     },
     {
-      image: "/now13.jpeg",
+      image: "/now13.webp",
       name: "Burger",
       description: "Juicy beef patty with fresh lettuce and cheese.",
       price: "$12.99"
@@ -96,8 +96,7 @@ export const Menu = () => {
       price: "$14.99"
     },
     {
-      image: "/now15.jpeg",
-      name: "Pasta",
+      image: "/now15.webp",
       description: "Creamy Alfredo sauce with grilled chicken.",
       price: "$13.99"
     },
