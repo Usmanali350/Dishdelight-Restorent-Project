@@ -1,0 +1,104 @@
+/* Apply Poppins font family to the whole website */
+body {
+    margin: 0;
+    overflow-x: hidden; /* Hide horizontal scroll */
+    overflow-y: auto; /* Allow vertical scroll if needed */
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; /* Apply Poppins font */
+  }
+  
+  /* Full Page Container */
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100vw;
+    height: 100%; /* Remove the height constraint */
+    overflow: hidden; /* Ensure no overflow */
+  }
+  
+  /* Background Section */
+  .background-section {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background-image: url("/bg.jpeg"); /* Path to your background image */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff; /* White text */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Text shadow for visibility */
+  }
+  
+  .text-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .text-container h1 {
+    font-size: 3rem;
+    margin: 0;
+    font-weight: 700; /* Bold weight for heading */
+  }
+  
+  .text-container p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    font-weight: 400; /* Regular weight for paragraph */
+  }
+  
+  /* Scrollable Images Section */
+  .scrolling-image-container {
+    width: 100%;
+    height: 30vh; /* Adjust as needed for scrollable image height */
+    overflow: hidden; /* Hide overflow (vertical scrollbar) */
+    display: flex; /* Flex to arrange images horizontally */
+  }
+  
+  .scrolling-wrapper {
+    display: flex;
+    width: fit-content; /* Allow infinite scroll */
+  }
+  
+  .scrolling-image {
+    width: 20vw; /* Show 4 images at a time */
+    height: 100%; /* Fit container height */
+    object-fit: cover;
+    margin-right: 20px; /* Space between images */
+    border-radius: 50%; /* Circular images */
+    border: 5px solid #fff; /* White border around images */
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .background-section h1 {
+      font-size: 2.5rem;
+    }
+  
+    .background-section p {
+      font-size: 1rem;
+    }
+  
+    .scrolling-image {
+      width: 40vw; /* Adjust for smaller screens */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .background-section h1 {
+      font-size: 2rem;
+    }
+  
+    .background-section p {
+      font-size: 0.9rem;
+    }
+  
+    .scrolling-image {
+      width: 80vw; /* Adjust for mobile screens */
+    }
+  }
+  

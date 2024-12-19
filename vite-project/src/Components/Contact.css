@@ -1,0 +1,82 @@
+/* ContactUs.css */
+.contact-container {
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .contact-header {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .contact-subheader {
+    font-size: 20px;
+    margin-bottom: 40px;
+    color: #777;
+  }
+  
+  .contact-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .contact-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 280px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .contact-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .contact-icon {
+    margin-bottom: 15px;
+  }
+  
+  .contact-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .contact-detail {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .contact-link {
+    font-size: 16px;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .contact-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .contact-cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .contact-card {
+      width: 100%;
+      max-width: 300px;
+    }
+  }
+  

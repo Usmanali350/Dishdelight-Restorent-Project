@@ -1,0 +1,23 @@
+.navbar {
+    box-shadow: 0 4px 6px rgba(182, 177, 177, 0.1);
+  }
+  
+  .nav-link {
+    font-size: 1rem;
+    color: white;
+    transition: color 0.3s ease-in-out;
+  }
+  .nav-link:hover {
+    text-decoration: underline !important;
+    background-color: rgb(103, 119, 119);
+    border-radius: 20px;
+  }
+  
+  .navbar-toggler {
+    border: none;
+  }
+  
+  .navbar-toggler-icon {
+    filter: invert(100%);
+  }
+  
